@@ -1,0 +1,121 @@
+a#home, a.home, a#saved, a.saved {
+	color: #CF5F24;
+}
+
+a {
+	color: #CF5F24;
+	cursor: pointer;
+	text-decoration: none;
+}
+
+.dropdown {
+	display: none;
+}
+
+.hero.is-info {
+	background-color: #CF5F24;
+}
+
+.hero.is-info .subtitle {
+	text-align: center;
+	color: #4A4A4A;
+}
+
+#hero-title {
+	font-family: 'Nanum Gothic', sans-serif;
+	font-size: 68px;
+	color: #0C296A;
+	padding-bottom: 20px;
+	text-align: center;
+}
+
+section.section {
+	padding-bottom: 0;
+	min-height: 100%;
+}
+
+div.container {
+	min-height: 100%;
+}
+
+.button.is-primary {
+	background-color: #106D5E;
+	border-color: transparent;
+	color: #fff;
+}
+
+.button.is-info {
+	background-color: #106D5E;
+	border-color: transparent;
+	color: #fff;
+}
+
+.delete {
+	color: red;
+}
+
+div#scrape-results, div#saved-results {
+	min-height: 100%;
+	margin-bottom: 200px;
+}
+
+.result-text {
+	float: left;
+	width: 80%;
+	padding-bottom: 30px;
+}
+
+.save-article {
+	float: right;
+	margin-top: 25px;
+}
+
+.result-div {
+ clear: both;
+}
+
+.saved-text {
+	float: left;
+	width: 70%;
+	padding-bottom: 30px;
+}
+
+.comments-button {
+	float: right;
+	margin-top: 25px;
+}
+
+button.is-success {
+	background-color: #106D5E;
+	border-color: transparent;
+	color: #fff;
+}
+
+.unsave-button {
+	float: right;
+	margin-top: 25px;
+	margin-left: 20px;
+}
+
+.saved-div {
+ clear: both;
+}
+
+.footer {
+	background-color: #D1D1CF;
+	border-top: 1px solid #DDDDDD;
+	text-align: center;
+	color: #0C296A;
+	position: fixed;
+	bottom: 0;
+	width: 100%;
+	padding: 5px 0;
+}
+
+span.icon {
+	padding-right: 25px;
+	padding-left: 15px;
+}
+
+
+/*Make media query at viewport width 851px for article buttons*/
